@@ -69,5 +69,6 @@ func setupRoutes() {
 func main() {
 	fmt.Println("Chat App v0.01")
 	setupRoutes()
+	//To Listen And Serve
 	http.ListenAndServe(":8080", nil)
 }
