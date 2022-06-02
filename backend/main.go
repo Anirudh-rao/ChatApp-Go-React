@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/Anirudh-rao/ChatApplication/pkg/websocket"
+	"github.com/Anirudh-rao/ChatApplication/backend/pkg/websocket"
 )
 
 func serveWs(w http.ResponseWriter, r *http.Request) {
